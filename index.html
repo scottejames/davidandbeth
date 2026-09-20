@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David &amp; Beth</title>
+<meta name="description" content="David and Beth are getting married. Details to follow.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2316241c'/%3E%3Crect x='11' y='11' width='10' height='10' fill='none' stroke='%23c6a15b' stroke-width='1.5' transform='rotate(45 16 16)'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,600;1,500&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main>
+
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <div class="diamond-mark" aria-hidden="true"><span class="diamond"></span></div>
+
+      <h1 class="names">David <span class="amp">&amp;</span> Beth</h1>
+      <p class="tagline">are getting married</p>
+
+      <div class="rule">
+        <span class="line"></span><span class="diamond small"></span><span class="line"></span>
+      </div>
+
+      <p class="meta">Date to be announced</p>
+      <p class="meta">Venue to be announced</p>
+
+      <p class="hero-note">
+        The details are still being written. When the date and place are set,
+        this is the first page that will know.
+      </p>
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true"><span></span></div>
+  </section>
+
+  <section class="panel" aria-labelledby="story-heading">
+    <h2 id="story-heading">Our story</h2>
+    <p>
+      Every wedding starts somewhere. Ours will be written here soon &mdash;
+      how we met, how it happened, and how we ended up here. For now, consider
+      this the opening line.
+    </p>
+  </section>
+
+  <div class="rule wide">
+    <span class="line"></span><span class="diamond small"></span><span class="line"></span>
+  </div>
+
+  <section class="panel" aria-labelledby="coming-heading">
+    <h2 id="coming-heading">What's coming</h2>
+    <ul class="coming-list">
+      <li><span class="label">The date &amp; place</span><span class="status">to be announced</span></li>
+      <li><span class="label">Our story</span><span class="status">to be added</span></li>
+      <li><span class="label">The wedding party</span><span class="status">to be added</span></li>
+      <li><span class="label">Schedule &amp; travel</span><span class="status">to be added</span></li>
+      <li><span class="label">Registry</span><span class="status">to be added</span></li>
+      <li><span class="label">RSVP</span><span class="status">to be added</span></li>
+    </ul>
+  </section>
+
+  <div class="rule wide">
+    <span class="line"></span><span class="diamond small"></span><span class="line"></span>
+  </div>
+
+  <section class="panel notify" aria-labelledby="notify-heading">
+    <h2 id="notify-heading">Stay in the loop</h2>
+    <p>Leave your email and we'll let you know the moment there's more to see.</p>
+
+    <form id="notify-form" class="notify-form" novalidate>
+      <label for="email" class="sr-only">Email address</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+      <button type="submit">Notify me</button>
+    </form>
+    <p class="notify-hint" id="notify-hint" role="status" hidden></p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="diamond-mark small" aria-hidden="true"><span class="diamond"></span></div>
+  <p class="footer-names">David &amp; Beth</p>
+  <p class="site-url">davidandbethwedding.online</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
